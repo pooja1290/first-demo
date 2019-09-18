@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">softices</string>
+    <string name="fname">Firstname</string>
+    <string name="lname">Lastname</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender:</string>
+    <string name="gmale">Male</string>
+    <string name="gfemale">Female</string>
+    <string name="password">Passoword</string>
+    <string name="cnfpassword">Confirm Password</string>
+    <string name="lgn">Sign Up</string>
+    <string name="create">Already have an account? Log In </string>
+<!--    <string name="email">Enter Email</string>-->
+<!--    <string name="password">Password</string>-->
+<!--    <string name="lgn">Login</string>-->
+<!--    <string name="account">Create An Account</string>-->
+</resources>
