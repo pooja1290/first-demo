@@ -1,30 +1,29 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="10dp">
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
     <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:id="@+id/firstname"
-        android:hint="@string/fname"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fname" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
         android:id="@+id/lastname"
         android:hint="@string/lname"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/email"
-        android:layout_marginTop="100dp" />
+        android:hint="@string/email" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/gender"
         android:hint="@string/gender"
-        android:layout_marginTop="150dp"
         android:textSize="18dp"/>
 
     <RadioButton
@@ -32,26 +31,21 @@
         android:layout_height="wrap_content"
         android:id="@+id/gendermale"
         android:text="@string/gmale"
-        android:layout_marginTop="180dp"
         android:checked="false"/>
     <RadioButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/genderfemale"
         android:text="@string/gfemale"
-        android:checked="true"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="180dp"/>
+        android:checked="true"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pass"
-        android:hint="@string/password"
-        android:layout_marginTop="210dp" />
+        android:hint="@string/password" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
         android:id="@+id/cnfpass"
         android:hint="@string/cnfpassword"/>
     <Button
@@ -60,19 +54,17 @@
         android:id="@+id/btnsignup"
         android:text="@string/lgn"
         android:textColor="@color/colorPrimaryDark"
-        android:background="@color/colorPrimary"
-        android:layout_marginTop="300dp"/>
+        android:background="@color/colorPrimary" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/create"
         android:text="@string/create"
-        android:layout_marginTop="360dp"
         android:layout_marginLeft="70dp"
         android:textColor="@color/colorPrimaryDark"/>
 
-
+</LinearLayout>
 
 
 
@@ -123,4 +115,4 @@
 <!--        android:text="@string/account"-->
 <!--        android:textColor="@color/colorPrimary" />-->
 
-</RelativeLayout>
+
