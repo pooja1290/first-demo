@@ -1,17 +1,19 @@
 <resources>
     <string name="app_name">softices</string>
-    <string name="fname">Firstname</string>
-    <string name="lname">Lastname</string>
-    <string name="email">Email</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_id">Email</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="first_name">Firstname</string>
+    <string name="last_name">Lastname</string>
+    <string name="sign_up_email">Email</string>
     <string name="gender">Gender:</string>
-    <string name="gmale">Male</string>
-    <string name="gfemale">Female</string>
-    <string name="password">Passoword</string>
-    <string name="cnfpassword">Confirm Password</string>
-    <string name="lgn">Sign Up</string>
-    <string name="create">Already have an account? Log In </string>
-<!--    <string name="email">Enter Email</string>-->
-<!--    <string name="password">Password</string>-->
-<!--    <string name="lgn">Login</string>-->
-<!--    <string name="account">Create An Account</string>-->
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="sign_up_password"> Password</string>
+    <string name="sign_up_confirm_password">Confirm Password</string>
+    <string name="Already_have_an_account_Log_In">Already have an account? Log In</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
